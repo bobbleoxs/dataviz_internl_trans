@@ -43,7 +43,7 @@
       //*******************************************************************
       //  CREATE MATRIX AND MAP
       //*******************************************************************
-      d3.csv('DDB.csv', function (error, data) {
+      d3.csv('OMG.csv', function (error, data) {
         var mpr = chordMpr(data);
 
         mpr
@@ -64,7 +64,7 @@
         var w = 980, h = 800, r1 = h / 2, r0 = r1 - 100;
 
         var fill = d3.scale.ordinal()
-            .domain(d3.range(37))
+            .domain(d3.range(41))
             .range(["#C2B078",
                     "#E1CC4F",
                     "#E6D690",
@@ -102,6 +102,10 @@
                     "#293133",
                     "#686C5E",
                     "#7D8471",
+                    "#734222",
+                    "#8E402A",
+                    "#FDF4E3",
+                    "#9C9C9C"
                     ]);
 
         var chord = d3.layout.chord()
