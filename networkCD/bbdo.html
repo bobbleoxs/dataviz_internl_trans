@@ -47,9 +47,9 @@
         var mpr = chordMpr(data);
 
         mpr
-          .addValuesToMap('Payor')
+          .addValuesToMap('Payr')
           .setFilter(function (row, a, b) {
-            return (row.Payor === a.name && row.Recipient === b.name)
+            return (row.Payer === a.name && row.Recipient === b.name)
           })
           .setAccessor(function (recs, a, b) {
             if (!recs[0]) return 0;
