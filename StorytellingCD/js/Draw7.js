@@ -12,11 +12,11 @@ function Draw7(){
 	changeTopText(newText = "At the Singapore side, the arc is much thinner, only spanning 1.2%",
 		loc = 4, delayDisappear = 0, delayAppear = 1);
 	changeTopText(newText = "These 1.2% is coming into Singapore, by following the chord we can see that they came from the US",
-		loc = 4, delayDisappear = 9, delayAppear = 10, finalText = true);
+		loc = 4, delayDisappear = 6, delayAppear = 7, finalText = true);
 
 	/*Stop the color changing on the US side*/
 	d3.selectAll(".USToSGArc")
-		.transition().duration(700)
+		.transition().duration(500)
 		.attr("fill", colors[5])
 		.style("stroke", colors[5]);
 
