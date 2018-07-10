@@ -12,11 +12,11 @@ function Draw8(){
 	changeTopText(newText = "Since the chord is much wider at the US side, the US has taken a lot more income than Singapore taken from the US",
 		loc = 5, delayDisappear = 0, delayAppear = 1);
 	changeTopText(newText = "Therefore, the chord is the color of the US blue, since the US has the net gain.",
-		loc = 5, delayDisappear = 9, delayAppear = 10, finalText = true);
+		loc = 5, delayDisappear = 6, delayAppear = 7, finalText = true);
 
 	/*Stop the colour changing on the SG side*/
 	d3.selectAll(".SGToUSArc")
-		.transition().duration(700)
+		.transition().duration(500)
 		.attr("fill", colors[4])
 		.style("stroke", colors[4]);
 
