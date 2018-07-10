@@ -12,9 +12,9 @@ function Draw9(){
 	changeTopText(newText = "There are also same country transactions which although the net effect is 0,  I want to show that they exist",
 		loc = 4/2, delayDisappear = 0, delayAppear = 1, finalText = false, xloc=-50, w=300);
 	changeTopText(newText = "The same country transactions are represented by the hills at each country",
-		loc = 3/2, delayDisappear = 9, delayAppear = 10, finalText = false, xloc=-50, w=300);
+		loc = 3/2, delayDisappear = 6, delayAppear = 7, finalText = false, xloc=-50, w=300);
 	changeTopText(newText = "You can also think of it as the chords begins and ends on itself",
-		loc = 2/2, delayDisappear = 18, delayAppear = 19, finalText = true, xloc=-50, w=300);
+		loc = 2/2, delayDisappear = 10, delayAppear = 12, finalText = true, xloc=-50, w=300);
 
 	/*Remove the arcs*/
 	d3.selectAll(".SGToUSArc")
