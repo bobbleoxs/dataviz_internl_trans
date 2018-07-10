@@ -14,10 +14,10 @@ function Draw1(){
 	loc = 4/2, delayDisappear = 0, delayAppear = 1);
 
 	changeTopText(newText = "Next I will introduce using the chord diagram to represent internal cross-border transactions within Omnicom. ",
-	loc = 8/2, delayDisappear = 9, delayAppear = 10, finalText = true);
+	loc = 8/2, delayDisappear = 7, delayAppear = 8, finalText = true);
 
 	changeBottomText(newText = "The network IC transactions are based on the data provided to me for 2017.",
-	loc = 1/2, delayDisappear = 0, delayAppear = 10);
+	loc = 1/2, delayDisappear = 0, delayAppear = 8);
 
 	//Remove arcs again
 	d3.selectAll(".arc")
