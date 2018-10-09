@@ -41,7 +41,7 @@ function Draw2(){
 	  .attr("opacity", function(d, i) {return d.index ? 0 : 1; });
 
 	/*Switch  text*/
-	changeTopText(newText = "First, we will go through a quick tutorial on how to read the chord diagram (please note the example data used here was fabricated).  We start by showing the share of IC transactions in the UK.",
+	changeTopText(newText = "First, we will go through a quick tutorial on how to read the chord diagram (please note the example data used here was simulated).  We start by showing the share of international transactions in the UK.",
 	loc = 1/2, delayDisappear = 0, delayAppear = 1, finalText = true);
 
 	changeBottomText(newText = "",
