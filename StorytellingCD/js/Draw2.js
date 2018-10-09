@@ -7,13 +7,13 @@ function Draw2(){
 	stopClicker();
 
 	/*Show and run the progressBar*/
-	runProgressBar(time=700*2);
+	runProgressBar(time=500*2);
 
 	/*Initiate all arcs but only show the US arc (d.index = 0)*/
 	g.append("svg:path")
 	  .style("stroke", function(d) { return fill(d.index); })
 	  .style("fill", function(d) { return fill(d.index); })
-	  .transition().duration(700)
+	  .transition().duration(500)
 	  .attr("d", arc)
 	  .attrTween("d", function(d) {
 		if(d.index == 0) {
@@ -27,17 +27,17 @@ function Draw2(){
 
 	/*Show the tick around the US arc*/
 	d3.selectAll("g.group").selectAll("line")
-		.transition().delay(700).duration(1000)
+		.transition().delay(500).duration(700)
 		.style("stroke", function(d, i, j) {return j ? 0 : "#000"; });
 
 	/*Add the labels for the %'s at US*/
 	d3.selectAll("g.group").selectAll(".tickLabels")
-		.transition().delay(700).duration(2000)
+		.transition().delay(500).duration(1500)
 		.attr("opacity", function(d, i, j) {return j ? 0 : 1; });
 
 	/*Show the US name*/
 	d3.selectAll(".titles")
-	  .transition().duration(2000)
+	  .transition().duration(1000)
 	  .attr("opacity", function(d, i) {return d.index ? 0 : 1; });
 
 	/*Switch  text*/
