@@ -17,7 +17,7 @@ var matrix = [
 ];
 /*Sums up to exactly 100*/
 
-var colors = ["#C4C4C4","#69B40F","#EC1D25","#C8125C","#008FC8","#10218B","#134B24","#737373"];
+var colors = ["#CC6677","#DDCC77","#AA4499","#44AA99","#88CCEE","#332288","#117733","#882255"];
 
 /*Initiate the color scale*/
 var fill = d3.scale.ordinal()
@@ -174,7 +174,7 @@ var middleTextTop = textCenter.append("text")
 	.attr("y", -24*10/2 + "px")
 	.attr("dy", "1em")
 	.attr("opacity", 1)
-	.text("Omnicom Intercompany Transactions - A Worldwide Story")
+	.text("Visualizing International Transactions")
 	.call(wrap, 350);
 
 /*Starting text middle bottom*/
