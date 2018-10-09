@@ -10,7 +10,7 @@ function Draw1(){
 	runProgressBar(time=700*11);
 
 	changeTopText(newText = "International transactions within a multinational enterprise can be difficult to track with endless rows of data." +
-							" Chord diagram is a technique which could help turn abstract data into stunning visualisaiton."",
+							" Chord diagram is a technique which could help turn abstract data into stunning visualisaiton.",
 	loc = 4/2, delayDisappear = 0, delayAppear = 1);
 
 	changeTopText(newText = "Next I will introduce using the chord diagram to represent international transactions. ",
