@@ -6,7 +6,7 @@ function Draw3(){
 	/*First disable click event on clicker button*/
 	stopClicker();
 
-	var arcDelay = [0,1,2,10,12,15,25,30,32,37,42];
+	var arcDelay = [0,1,2,10,12,15,18,22,30,37,42];
 	/*Show and run the progressBar*/
 	runProgressBar(time=700*(arcDelay[(arcDelay.length-1)]+1));
 
